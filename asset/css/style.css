@@ -1,0 +1,145 @@
+/* .box{ */
+   /* border-style:solid; */
+  /* height:300px; */
+/* } */
+
+*{
+	box-sizing:border-box;
+}
+
+
+.cname{
+	
+	background-color:#A73449;
+	height:150px;
+	text-align:center;
+	font-size:40px;
+	color:white;
+	padding-top:55px;
+}
+
+.menu{
+	/* border-style:solid; */
+	background-color:black;
+	height:50px;
+	text-align:center;
+	padding-top:18px;
+	/* position:fixed; */
+	
+}
+
+/* here not targeting only anchor because there will be many anchor tags on webpage */
+/* If u don't all anchor tags text (eg., HOME) in same color. */
+/* eg., if u want all anchor tags in only menu bar must be in white color then use below format */
+
+.menu a{ 
+	color:white;
+	text-decoration:none;
+	display:block;
+}
+
+a:hover{
+	color:#10F20D;
+}
+
+
+.banner{
+	
+	background-image:url('../photos/image5.jpg');
+	height:500px;
+	width:940px;
+	margin-top:3px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	/* background-position:center; */
+	
+	
+}
+
+
+.about{
+	
+	background-color:black;
+	height:50px;
+	color:white;
+	text-align:center;
+	padding-top:18px;
+	margin-top:5px;
+	margin-bottom:10px;
+	box-shadow:0px 0px 5px #F5E204;
+	
+}
+
+.pic{
+	margin-top:7px;
+}
+
+
+p{
+	text-align:justify;
+}
+
+.section{
+	background-color:black;
+
+	color:white;
+	text-align:center;
+	padding-top:18px;
+	margin-top:10px;
+	box-shadow:0px 0px 5px #F5E204;
+}
+
+.contact{
+	margin-top:10px;
+}
+
+.mar{
+	margin-top=10px;
+}
+
+
+.box{
+	box-shadow:5px 5px 5px 5px #BAB8B8;
+}
+
+.lime{
+	background-color:#F3DD04;
+	margin-top:10px;
+    
+}
+
+.mango{
+	background-color:#51B017;
+	margin-top:10px;
+    
+}
+
+.chilli{
+	background-color:#C3F509;
+	margin-top:10px;
+
+}
+
+.chiku{
+	background-color:#C3920E;
+	margin-top:10px;
+
+}
+
+.mixed{
+	background-color:#82DFC3;
+	margin-top:10px;
+}
+
+.amla{
+	background-color:#BEF08C;
+	margin-top:10px;
+}
+
+/* img{ */
+	
+	/* position:fixed; */
+	/* right:20px; */
+	/* bottom:30px; */
+/* }  */
